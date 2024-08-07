@@ -1,0 +1,14 @@
+C:\Users\Adixoo\Desktop\c#\learning c#\bin\Debug\net8.0\learning c#.exe
+C:\Users\Adixoo\Desktop\c#\learning c#\bin\Debug\net8.0\learning c#.deps.json
+C:\Users\Adixoo\Desktop\c#\learning c#\bin\Debug\net8.0\learning c#.runtimeconfig.json
+C:\Users\Adixoo\Desktop\c#\learning c#\bin\Debug\net8.0\learning c#.dll
+C:\Users\Adixoo\Desktop\c#\learning c#\bin\Debug\net8.0\learning c#.pdb
+C:\Users\Adixoo\Desktop\c#\learning c#\obj\Debug\net8.0\learning c#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adixoo\Desktop\c#\learning c#\obj\Debug\net8.0\learning c#.AssemblyInfoInputs.cache
+C:\Users\Adixoo\Desktop\c#\learning c#\obj\Debug\net8.0\learning c#.AssemblyInfo.cs
+C:\Users\Adixoo\Desktop\c#\learning c#\obj\Debug\net8.0\learning c#.csproj.CoreCompileInputs.cache
+C:\Users\Adixoo\Desktop\c#\learning c#\obj\Debug\net8.0\learning c#.dll
+C:\Users\Adixoo\Desktop\c#\learning c#\obj\Debug\net8.0\refint\learning c#.dll
+C:\Users\Adixoo\Desktop\c#\learning c#\obj\Debug\net8.0\learning c#.pdb
+C:\Users\Adixoo\Desktop\c#\learning c#\obj\Debug\net8.0\learning c#.genruntimeconfig.cache
+C:\Users\Adixoo\Desktop\c#\learning c#\obj\Debug\net8.0\ref\learning c#.dll
