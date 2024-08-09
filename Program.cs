@@ -10,7 +10,7 @@
 // Console.WriteLine("your age is "+ age );
 
 
-// double d = 9.78;
+// string d = 9.78;
 // int i = (int)d; 
 
 
@@ -124,12 +124,229 @@
 //     Console.WriteLine($"{e.Message}");
 
 // }
-    
+
+
+// //classes and objects 
+// class Book
+// {
+//   public string title;
+//   public string author;
+//   public int pages;
+
+// }
+
+
+// class Program
+// {
+//   static void Main(string[] args)
+//   {
+//     Book fictionBook1 = new Book(); //object creation 
+//     fictionBook1.title = "Harry porter";
+//     fictionBook1.author = "Jk rowling";
+//     fictionBook1.pages = 342;
+
+
+//     Book selfDiscoveryBook = new Book(); //object creation
+//     selfDiscoveryBook.title = "Rudest book ever";
+//     selfDiscoveryBook.author = "Shwetab gangwar";
+//     selfDiscoveryBook.pages = 142;
+
+
+//     Console.WriteLine($"The name of two Books are " + selfDiscoveryBook.title + "" + fictionBook1.title);
+//     Console.WriteLine($"Both of the books contains almost " + (fictionBook1.pages + selfDiscoveryBook.pages) + " Pages");
+//     Console.WriteLine($"The author of Books are " + selfDiscoveryBook.author + " and " + fictionBook1.author);
+//     Console.ReadLine();
+
+//   }
+
+// }
 
 
 
+//constructors 
+
+
+// using System.Configuration.Assemblies;
+
+// class Book
+// {
+//   public string title;
+//   public string author;
+//   public int pages;
+
+
+//   //adding consutuctor 
+//   //every time you add a  new object the consturtor will automatically called 
+//   public Book(string personName )
+//   {
+//     Console.WriteLine($" creating book for "+ personName);
+
+//   }
+
+// }
+
+
+// class Program
+// {
+//   static void Main(string[] args)
+//   {
+//     Book fictionBook1 = new Book("Wesley"); //object creation 
+//     fictionBook1.title = "Harry porter";
+//     fictionBook1.author = "Jk rowling";
+//     fictionBook1.pages = 342;
+
+
+//     Book selfDiscoveryBook = new Book("Cris evan"); //object creation
+//     selfDiscoveryBook.title = "Rudest book ever";
+//     selfDiscoveryBook.author = "Shwetab gangwar";
+//     selfDiscoveryBook.pages = 142;
+
+
+//     Console.WriteLine($"The name of two Books are " + selfDiscoveryBook.title + "" + fictionBook1.title);
+//     Console.WriteLine($"Both of the books contains almost " + (fictionBook1.pages + selfDiscoveryBook.pages) + " Pages");
+//     Console.WriteLine($"The author of Books are " + selfDiscoveryBook.author + " and " + fictionBook1.author);
+//     Console.ReadLine();
+
+//   }
+
+// }
 
 
 
+//object method
+
+// using System.Collections.Concurrent;
+
+// class Student
+// {
+//   public string name;
+//   public int gpa;
+//   public string subject;
 
 
+//   public Student (string aName , int aGpa , string aSubject)
+//   {
+//     name = aName;
+//     gpa =aGpa;
+//     subject = aSubject;
+
+//   }
+
+
+//   public bool gpaDecider()
+//   {
+//     if (gpa >= 3.5)
+//     {
+//       return true;
+//     }
+//     return false;
+
+//   }
+// }
+
+// class Program
+// {
+//   static void Main (string[] args)
+//   {
+//     Student student1 = new Student("wesley",4, "MBBS");
+//     Student student2 = new Student("parvendra " ,2, "btech");
+//     Console.WriteLine(student1.gpaDecider());
+//     Console.WriteLine(student2.gpaDecider());
+//     Console.ReadLine();
+
+//   }
+
+// }
+
+
+//getters and setter in the c sharp 
+// class Movie
+// {
+//     public string movieName;
+//     public string movieRating;
+//     public string movieDirector;
+
+
+//     public Movie(string amovieName, string amovieRating, string amovieDirector)
+//     {
+//         movieName = amovieName;
+//         movieRating = amovieRating;
+//         movieDirector = amovieDirector;
+
+//     }
+
+//     public string movieDecider()
+//     {
+//         if (movieRating > 3.5)
+//         {
+//             return "The movie is worth watching ";
+//         }
+//         else
+//         {
+//             return "The movie is not at all worthy";
+//         }
+
+//     }
+
+// }
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Movie movie1 = new Movie("Avengers", 4.2, "Russo brothers");
+//         Movie movie2 = new Movie("Pirates of carebbiena ", 2.9, "redChilli corporation");
+
+//         Console.WriteLine(movie2.movieDecider());
+
+
+//     }
+
+// }
+
+
+//getter setter
+using System;
+
+class Movie
+{
+    public string movieName;
+    private string movieRating;
+    public string movieDirector;
+
+    public Movie(string amovieName, string amovieRating, string amovieDirector)
+    {
+        movieName = amovieName;
+        MovieRating = amovieRating;
+        movieDirector = amovieDirector;
+    }
+
+    public string MovieRating
+    {
+        get { return movieRating; }
+        set
+        {
+            if (value == "A" || value == "B" || value == "C" || value == "D" || value == "E")
+            {
+                movieRating = value;
+            }
+
+        }
+    }
+
+
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+
+        Movie movie1 = new Movie("Avengers", "A", "Russo brothers");
+        Movie movie2 = new Movie("Pirates of the Caribbean", "B", "RedChili Corporation");
+
+        Console.WriteLine(movie1.movieName);
+        Console.WriteLine(movie2.movieName);
+
+
+    }
+}

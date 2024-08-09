@@ -12,3 +12,4 @@ C:\Users\Adixoo\Desktop\c#\learning c#\obj\Debug\net8.0\refint\learning c#.dll
 C:\Users\Adixoo\Desktop\c#\learning c#\obj\Debug\net8.0\learning c#.pdb
 C:\Users\Adixoo\Desktop\c#\learning c#\obj\Debug\net8.0\learning c#.genruntimeconfig.cache
 C:\Users\Adixoo\Desktop\c#\learning c#\obj\Debug\net8.0\ref\learning c#.dll
+C:\Users\Adixoo\Desktop\c#\learning c#\obj\Debug\net8.0\learning c#.sourcelink.json
